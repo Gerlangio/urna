@@ -46,7 +46,67 @@
             justify-content: space-between;
         }
         .input-foto {
-            
+            justify-content: space-between;
+        }
+        .foto-nome {
+            flex-direction: column;
+            align-items: center;
+        }
+        .foto-nome img {
+            margin: 0 0 10px 0;
+        }
+        .info {
+            justify-content: center;
+            height: 60px;
+            border-top: .5px solid #ddd;
+        }
+        .teclado {
+            flex: 5;
+            flex-direction: column;
+            padding: 20px;
+            box-sizing: border-box;
+            justify-content: space-between;
+        }
+        .numeros {
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        button, .teclado div:nth-child(2) input {
+            width: 75px;
+            height: 47px;
+            background-color: #15181C;
+            text-align: left;
+            color: #ddd;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            margin: 10px;
+        }
+        .numeros button {
+            font-size: 30px;
+        }
+        .teclado div:nth-child(2) {
+            display: flex;
+            justify-content: center;
+        }
+        .teclado div:nth-child(2) button, .teclado div:nth-child(2) input {
+            flex: 1;
+            display: flex;
+            height: 61px;
+            justify-content: center;
+            align-items: center;
+            font-weight: 700;
+            color: #181818;
+        }
+        .teclado div:nth-child(2) button:nth-child(1) {
+            background: #fff;
+            border: .5px solid #ddd;
+        }
+        .teclado div:nth-child(2) button:nth-child(2) {
+            background: #F58952;
+        }
+        .teclado div:nth-child(2) input {
+            background: #2BB162;
         }
     </style>
 </head>
