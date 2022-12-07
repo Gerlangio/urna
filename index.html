@@ -1,12 +1,58 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vote Agora</title>
+    <style>
+        html, body {
+            width: 100%;height: 100%;
+            padding: 0;border: 0;margin: 0;
+            background: #C1CFEC;
+            font-family: arial;
+        }
+        .flex {
+            display: flex;
+        }
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        input {
+            outline: none;
+            height: 25px;
+        }
+        .main {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+        }
+        .urna {
+            max-width: 1100px;
+        }
+        .tela, .teclado {
+            height: 400px;
+            margin: 20px;background: white;
+        }
+        .tela {
+            flex: 8;
+            padding: 40px;
+            box-sizing: border-box;
+            font-size: 20px;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .input-foto {
+            
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="main flex">
+        <div>N° título<input type="number" name="nTitEleitor"/></div>
+    </div>
 </body>
 </html>
